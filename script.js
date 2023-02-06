@@ -1,2 +1,3 @@
-let a = '' + 3 + 1;
-alert(a); // выведет 31
+let a = 2;
+let b = 3;
+alert(a + b);
