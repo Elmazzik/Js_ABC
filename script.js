@@ -1,15 +1,7 @@
-let num1 = 11;
-let num2 = 22;
-
-alert(String(num1) + String(num2)); //сумма переменных как строк
-
-let Num = 12345678910;
-alert(String(Num).length); // выведет количество цифр
-
-
-let number = 1234567;
-let str2 = String(num);
-
-let number2 = 123;
-let str3 = String(num);
-alert(str2.length + str3.length); 
+alert(true + 3); //выведет 4
+alert(true + true); //выведет 2
+alert(true - true); //выведет 0
+alert(true + false); //выведет 1
+alert('1' + true); //выведет 1true 
+alert( String(true) + 1 ); //выведет true1
+alert( String(true) + Number(true) ); //выведет true1
