@@ -1,2 +1,2 @@
-let str = 'hello' + ' ' + 'world' + '!'; // складываем две строки
-alert(str); 
+let str = 'abcdefghijklmn';
+alert(str.length);
