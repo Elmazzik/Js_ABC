@@ -1,2 +1,2 @@
-let obj = {name: 'Эльмаз', surname: 'Мустафаева', patronymic: 'Эмильевна'};
-console.log(obj['surname'] + ',' + obj['name'] + ','+ obj['patronymic']);
+let obj = {year: '2023', month: 'fabruary', day: '15'};
+console.log(obj['year'] + '-' + obj['month'] + '-'+ obj['day']);
