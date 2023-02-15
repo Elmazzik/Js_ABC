@@ -1,6 +1,5 @@
-let arr = [1, 2, 3];
-console.log(arr);
+let arr = ['a', 'b', 'c'];
+console.log(arr.length)
 
-let arr1 = ['a', 'b', 'c', 'd'];
-let arr2 = arr1.join(" + ");
-console.log(arr2);
+let arr1 = [1, 2, 3];
+console.log(arr1[arr1.length - 1])
