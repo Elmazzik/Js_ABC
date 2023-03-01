@@ -1,124 +1,48 @@
-//Задание 1
-let num1 = 1;
-let num2 = 2;
+//задание 1
+let month = 7;
 
-if (num1 + num2 === 3) {
-  console.log("+++");
-} else {
-  console.log("---");
-}
+   if (month == 12 || month == 1 || month == 2) {
+      console.log('Зима')
+   } else if (month == 3 || month == 4 || month == 5) {
+      console.log('Весна')
+   } else if (month == 6 || month == 7 || month == 8) {
+      console.log('Лето')
+   } else if (month == 9 || month == 10 || month == 11) {
+      console.log('Осень')
+   }
 
-//Задание 2
-let num1 = "1";
-let num2 = "2";
+//задание 2
+   let str = 'abcde';
 
-if (+num1 + +num2 === 3) {
-  console.log("+++");
-} else {
-  console.log("---");
-}
+   if (str[0] == 'a') {
+      console.log('da')
+   } else {
+      console.log('net')
+   }
 
-//Задание 3
-let num1 = "1";
-let num2 = "2";
+//задание 3
+   const num = 12345;
 
-if (Number(num1) + Number(num2) === 3) {
-  console.log("+++");
-} else {
-  console.log("---");
-}
+   if (String(num)[0] == '1' || String(num)[0] == '2' || String(num)[0] == '3') {
+      console.log('da')
+   } else {
+      console.log('net')
+   }
 
-//Задание 4
-let num = 123;
+   //задание 4
+   const num1 = '123';
+   let result = Number(num1[0]) + Number(num1[1]) + Number(num1[2]);
 
-if (String(num)[0] === "1") {
-  console.log("+++");
-} else {
-  console.log("---");
-}
+   console.log(result)
 
-//Задание 5
-let num = 123;
+//задание 5
+   let num15 = '123033';
 
-if (String(num)[0] === "1") {
-  console.log("+++");
-} else {
-  console.log("---");
-}
+   let sum1 = Number(num15[0]) + Number(num15[1]) + Number(num15[2]);
+   let sum2 = Number(num15[3]) + Number(num15[4]) + Number(num15[5]);
 
-//Задание 6
-let num = 123;
-
-if (String(num)[0] === "1") {
-  console.log("+++");
-} else {
-  console.log("---");
-}
-
-//Задание 7
-let num = 123;
-let first = String(num)[0];
-
-if (first === "1") {
-  console.log("+++");
-} else {
-  console.log("---");
-}
-
-//Задание 8
-let num = 12;
-
-if (String(num).length === 2) {
-  console.log("+++");
-} else {
-  console.log("---");
-}
-
-//Задание 9
-let num = 12;
-let str = String(num);
-
-if (str.length === 2) {
-  console.log("+++");
-} else {
-  console.log("---");
-}
-
-//Задание 10
-let num = 12;
-
-if (String(num).length == 2) {
-  console.log("+++");
-} else {
-  console.log("---");
-}
-
-//Задание 11
-let num = 12;
-
-if (String(num).length === 2) {
-  console.log("+++");
-} else {
-  console.log("---");
-}
-
-//Задание 12
-let num = 12;
-
-if (String(num).length === 2) {
-  console.log("+++");
-} else {
-  console.log("---");
-}
-
-//Задание 13
-let num = "123033"; 
-
-let sum1 = +num[0] + +num[1] + +num[2];
-let sum2 = +num[3] + +num[4] + +num[5];
-
-if (sum1 == sum2) {
-  console.log("суммы равны");
-} else {
-  console.log("суммы не равны");
-}
+   if (sum1 == sum2) {
+      console.log('суммы равны');
+   } else {
+      console.log('суммы не равны');
+   }
