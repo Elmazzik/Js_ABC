@@ -1,13 +1,8 @@
-let min = 10;
+let arr = [10, 23, 12];
 
-if (min >= 0 && min <= 19) {
-  console.log("Четверть 1");
-}
-
-if (min >= 20 && min <= 39) {
-  console.log("Четверть 2");
-}
-
-if (min >= 40 && min <= 59) {
-  console.log("Четверть 3");
+if (arr.length == 3) {
+  let sum = arr.map((i) => (x += i), (x = 0)).reverse()[0];
+  alert(sum);
+} else {
+  alert("В данном массиве не 3 значения");
 }
