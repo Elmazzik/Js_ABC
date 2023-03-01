@@ -1,33 +1,5 @@
-// Задание 1
-console.log('1');
-for (let i = 1; i <= 100; i++) {
-	console.log(i);
-}
+let arr = ["a", "b", "c", "d", "e"];
 
-// Задание 2
-console.log('2');
-for (let i = 11; i <= 33; i++) {
-	console.log(i);
-}
-
-//Задание  3
-console.log('3');
-for (let i = 0; i <= 100; i++) {
-    if (i % 2 == 0) {
-        console.log(i);
-    }
-}
-
-// Задание 4
-console.log('4');
-for (let i = 1; i <= 99; i++) {
-    if (i % 2 == 1) {
-        console.log(i);
-    }
-}
-
-// Задание 5
-console.log('5');
-for (let i = 100; i >= 0; i--) {
-    console.log(i);
+for (let elem of arr) {
+  console.log(elem);
 }
