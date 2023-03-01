@@ -1,19 +1,12 @@
- let lang = 'ru';
+let num = 2; 
 
-   switch (lang) {
-      case 'ru':
-         console.log('рус');
-         break;
+switch (num) {
+  case 1:
+    console.log(1);
 
-      case 'en':
-         console.log('анг');
-         break;
-
-      case 'de':
-         console.log('нем');
-         break;
-		 
-      default:
-         console.log('язык не поддерживается');
-         break;
-   }
+  case 2:
+    console.log(2); 
+	
+  case 3:
+    console.log(3);
+}
