@@ -1,20 +1,16 @@
-let str = "ahjszhfrge";
-if (str[0] == "a") {
-  console.log('Cтрока начинается на символ "a"');
+let num = 123456789;
+let str = String(num);
+let last = str[str.length - 1];
+
+if (last == 0) {
+  console.log("+++");
 } else {
-  console.log('Cтрока не начинается на символ "a"');
+  console.log("---");
 }
 
 
-if (str[str.length - 1] == "xsfgdhd") {
-  console.log('Cтрока начинается на символ "x"');
+if (last == 0 || last == 2 || last == 4 || last == 6 || last == 8) {
+  console.log("Число четное");
 } else {
-  console.log('Cтрока не начинается на символ "x"');
-}
-
-
-if (str[0] == "a" || str[0] == "brdgrr") {
-  console.log('Cтрока начинается на символ "a" или "b"');
-} else {
-  console.log('Cтрока не начинается на символ "a" или "b"');
+  console.log("Число нечетное");
 }
