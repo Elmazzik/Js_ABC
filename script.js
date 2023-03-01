@@ -1,7 +1,9 @@
-let ok = confirm("Вам есть 18?");
+let age = 19;
+let adult;
 
-if (ok) {
-  alert("Есть доступ!");
+if (age >= 18) {
+  adult = true;
 } else {
-  alert("Доступа нет!");
+  adult = false;
 }
+console.log(adult);
