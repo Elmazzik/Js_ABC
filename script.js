@@ -1,26 +1,26 @@
-let str = '';
-for (let i = 0; i < 5; i++) {
-	str += '-';
+for (let i = 10; i <= 1000; i++) {
+  i = String(i);
+  console.log(i[0]);
 }
-console.log(str);
 
 
-let str = '';
-for (let i = 1; i <= 9; i++) {
-	str += i;
+for (let i = 10; i <= 1000; i++) {
+  i = String(i);
+  console.log(Number(i[0]) + Number(i[1]));
 }
-console.log(str); 
 
 
-let str = '';
-for (let i = 9; i >= 1; i--) {
-	str += i;
+for (let i = 10; i <= 1000; i++) {
+  i = String(i);
+  if (i[0] === '1') {
+      console.log(i);
+  }
 }
-console.log(str); 
 
 
-let str = '-';
-for (let i = 1; i <= 9; i++) {
-	str += i;
+for (let i = 10; i <= 1000; i++) {
+  i = String(i);
+  if ((Number(i[0]) + Number(i[1]) === 5)) {
+      console.log(i);
+  }
 }
-console.log(str); 
