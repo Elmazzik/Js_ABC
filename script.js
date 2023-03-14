@@ -19,5 +19,4 @@ while (num <= 1000) {
   num = num * 3;
   count++;
 }
-
 console.log( ' Количество итераций ${count} ');
