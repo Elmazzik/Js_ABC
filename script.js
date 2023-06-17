@@ -1,12 +1,19 @@
-var elem = document.getElementById("task");
-elem.addEventListener("click", func);
-var elem1 = document.getElementsByClassName("cls");
+let num = 1;
+
+function func1() {
+   num = 2;
+}
+func1();
+
+console.log(num); // 2
+
+
+
+let num1 = 1;
 
 function func() {
-   var sum = 0;
-   for (var i = 0; i < elem1.length; i++) {
-      sum += +elem1[i].value;
-   }
-   var newElem = document.getElementById("sum");
-   newElem.value = sum;
+   let num1 = 2;
 }
+func();
+
+console.log(num1); // 1
