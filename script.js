@@ -1,23 +1,29 @@
-let input = document.querySelector('#input');
+let p1 = document.querySelector('#p1');
+let p2 = document.querySelector('#p2');
+let p3 = document.querySelector('#p3');
+let p4 = document.querySelector('#p4');
+let p5 = document.querySelector('#p5');
 
-input.addEventListener('focus', funcFocus);
+p1.addEventListener("click", func);
+p2.addEventListener("click", func);
+p3.addEventListener("click", func);
+p4.addEventListener("click", func);
+p5.addEventListener("click", func);
 
-function funcFocus() {
- this.value = '1';
-};
+function func() {
+   this.textContent += '!'
+}
 
-input.addEventListener('blur', funcBlur);
 
-function funcBlur() {
- this.value = '2';
-};
 
-   
-let button = document.querySelector("#btn");
+let input1 = document.querySelector('#input1');
+let input2 = document.querySelector('#input2');
+let input3 = document.querySelector('#input3');
 
-button.addEventListener("click", addOne);
+input1.addEventListener("blur", func1);
+input2.addEventListener("blur", func1);
+input3.addEventListener("blur", func1);
 
-function addOne() {
- let sum = (Number(this.textContent) + 1 )
- this.textContent = sum
+function func1() {
+   this.value = Math.pow(Number(this.value), 2)
 }
