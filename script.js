@@ -8,6 +8,10 @@ function addZero(num) {
    }
 }
 
-console.log(
-   addZero(date.getHours()) + ':' + addZero(date.getMinutes()) + ':' + addZero(date.getSeconds()) + ' ' +
-   addZero(date.getDate()) + '.' + addZero(date.getMonth() + 1) + '.' + date.getFullYear());
+let date1 = addZero(date.getDate()) + "-" + addZero(date.getMonth() + 1) + "-" + date.getFullYear();
+
+console.log(date1);
+
+let date2 = date1.split("-").join(".");
+
+console.log(date2);
