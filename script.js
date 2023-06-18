@@ -4,7 +4,6 @@ window.onload = function () {
    li.textContent = "item";
    parent.appendChild(li);
    
-
    
    const button = document.getElementById("button");
    const list = document.getElementById("elem1");
